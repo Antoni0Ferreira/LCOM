@@ -1,0 +1,4 @@
+<map id="get_secs" name="get_secs">
+<area shape="rect" id="node1" title="Reads the seconds from the RTC." alt="" coords="5,5,80,32"/>
+<area shape="rect" id="node2" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title="sys_inb wrapper" alt="" coords="128,5,219,32"/>
+</map>

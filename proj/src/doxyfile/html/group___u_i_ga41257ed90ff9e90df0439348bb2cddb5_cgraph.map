@@ -1,0 +1,6 @@
+<map id="menu_option_sprite" name="menu_option_sprite">
+<area shape="rect" id="node1" title="Draws a spaceship to show the selected button in the menu." alt="" coords="5,31,140,57"/>
+<area shape="rect" id="node2" href="$group__video.html#ga32e341c07277c8c153971e46210ddca9" title="Replaces the memory correspondent to the sprite being destroyed with the background colors." alt="" coords="188,5,311,32"/>
+<area shape="rect" id="node3" href="$group__video.html#ga4e01b14c312b99f870c26113c38450e7" title="Draws the image passed by parameters starting in coordinates (x,y)" alt="" coords="196,56,303,83"/>
+<area shape="rect" id="node4" href="$group__video.html#ga08c498ffeb0a3962e3b7711b57397741" title="Writes color in memory correspondent to pixel (x,y)" alt="" coords="359,56,461,83"/>
+</map>

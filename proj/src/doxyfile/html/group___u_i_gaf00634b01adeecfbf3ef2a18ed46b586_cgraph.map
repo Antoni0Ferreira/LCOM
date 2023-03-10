@@ -1,0 +1,5 @@
+<map id="initialize_game_background" name="initialize_game_background">
+<area shape="rect" id="node1" title="Initializes the game background according to the real time minutes." alt="" coords="5,31,188,57"/>
+<area shape="rect" id="node2" href="$group__rtc.html#ga7d1fd4bebc686614005d97f7786da3ee" title="Reads the minutes from the RTC." alt="" coords="236,5,311,32"/>
+<area shape="rect" id="node3" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title="sys_inb wrapper" alt="" coords="359,31,449,57"/>
+</map>

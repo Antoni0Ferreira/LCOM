@@ -1,0 +1,5 @@
+<map id="mouse_enable_data" name="mouse_enable_data">
+<area shape="rect" id="node1" title="Writes command 0xF4 to KBC activating mouse data transfer." alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node2" href="$group__mouse.html#ga61ab3828bd2f69b7edaeb37731e34ddc" title="Function responsible for issuing a command to the KBC command register." alt="" coords="192,5,355,32"/>
+<area shape="rect" id="node3" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title="sys_inb wrapper" alt="" coords="403,5,493,32"/>
+</map>

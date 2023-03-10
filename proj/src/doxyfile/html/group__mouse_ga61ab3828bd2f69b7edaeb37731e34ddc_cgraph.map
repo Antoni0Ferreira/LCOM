@@ -1,0 +1,4 @@
+<map id="mouse_issue_command" name="mouse_issue_command">
+<area shape="rect" id="node1" title="Function responsible for issuing a command to the KBC command register." alt="" coords="5,5,168,32"/>
+<area shape="rect" id="node2" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title="sys_inb wrapper" alt="" coords="216,5,307,32"/>
+</map>

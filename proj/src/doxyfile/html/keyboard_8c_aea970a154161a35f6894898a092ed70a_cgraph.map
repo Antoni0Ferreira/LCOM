@@ -1,0 +1,5 @@
+<map id="kbc_ih" name="kbc_ih">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,65,32"/>
+<area shape="rect" id="node2" href="$group__keyboard.html#ga302e2f32c2d613067be979720047c093" title="Function responsible for reading the output buffer of the KBC." alt="" coords="113,5,220,32"/>
+<area shape="rect" id="node3" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title="sys_inb wrapper" alt="" coords="268,5,359,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="get_secs" name="get_secs">
+<area shape="rect" id="node1" title="Reads the seconds from the RTC." alt="" coords="108,5,183,32"/>
+<area shape="rect" id="node2" href="$group__rtc.html#ga75dad42881d64cf07cf1bdc2979a7056" title="Interrupt handler of the RTC." alt="" coords="5,5,60,32"/>
+</map>

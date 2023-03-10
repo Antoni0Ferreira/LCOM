@@ -1,0 +1,5 @@
+<map id="mouse_disable_data" name="mouse_disable_data">
+<area shape="rect" id="node1" title="Writes command 0xF5 to KBC disabling mouse data transfer." alt="" coords="5,5,147,32"/>
+<area shape="rect" id="node2" href="$group__mouse.html#ga61ab3828bd2f69b7edaeb37731e34ddc" title="Function responsible for issuing a command to the KBC command register." alt="" coords="195,5,357,32"/>
+<area shape="rect" id="node3" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title="sys_inb wrapper" alt="" coords="405,5,496,32"/>
+</map>

@@ -1,0 +1,192 @@
+@lcflib.a:2019, lcf_start
+  video_test_rectangle(mode, x, y, width, height, color)
+> video_test_rectangle(0x11a, 40, 40, 40, 40, 0x006e472e [7227182])
+  @lab5.c:91, video_test_rectangle
+    vg_init(mode)
+  > vg_init(0x11a)
+    @video.c:109, my_vbe_get_mode_info
+      lm_alloc(sizeof(vbe_mode_info_t), &map)
+    < lm_alloc(256, addr: 0xeffff450 [phys: 0x0008f000, virt: 0xefb8c000, size: 256 bytes]) -> (ret: 0xefb8c000)
+    @video.c:120, my_vbe_get_mode_info
+      sys_int86(&r)
+    > sys_int86(addr: 0xeffff428 [AX: 4f01, BX: 0000, CX: 011a, DX: 0000, ES: 8000, DI: f000])
+    < sys_int86(addr: 0xeffff428 [AX: 004f, BX: 0000, CX: 011a, DX: 0000, ES: 8000, DI: f000]) -> (ret: 0)
+    @video.c:124, my_vbe_get_mode_info
+      lm_free(&map)
+    < lm_free(addr: 0xeffff450 [phys: 0x0008f000, virt: 0xefb8c000, size: 256 bytes]) -> (ret: 1)
+    @video.c:66, vg_init
+      sys_privctl(SELF, SYS_PRIV_ADD_MEM, &mr)
+    > sys_privctl(SELF, SYS_PRIV_ADD_MEM, addr: 0xeffff4c0 [0xe0000000 - 0xe0280000 <2.5 MiB>])
+    < sys_privctl(SELF, SYS_PRIV_ADD_MEM, &mr) -> (ret: 0)
+    @video.c:69, vg_init
+      vm_map_phys(SELF, (void *)mr.mr_base, vram_size)
+    < vm_map_phys(SELF, addr: 0xe0000000, 2.5 MiB) -> (ret: 0xef77b000)
+    @video.c:81, vg_init
+      sys_int86(&reg86)
+    > sys_int86(addr: 0xeffff498 [AX: 4f02, BX: 411a, CX: 0000, DX: 0000, ES: 0000, DI: 0000])
+    < sys_int86(addr: 0xeffff498 [AX: 004f, BX: 411a, CX: 0000, DX: 0000, ES: 0000, DI: 0000]) -> (ret: 0)
+  < vg_init(0x11a) -> (ret: 0xef77b000)
+  @keyboard.c:16, keyboard_subscribe_int
+    sys_irqsetpolicy(1, IRQ_REENABLE | IRQ_EXCLUSIVE, &hook_keyboard_ID)
+  > sys_irqsetpolicy(1, 3, addr: 0x822e5a4 [1])
+  < sys_irqsetpolicy(1, 3, addr: 0x822e5a4 [10]) -> (ret: 0)
+  @lab5.c:97, video_test_rectangle
+    vg_draw_rectangle(x, y, width, height, color)
+  > vg_draw_rectangle(40, 40, 40, 40, 0x006e472e [7227182])
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 40, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 41, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 42, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 43, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 44, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 45, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 46, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 47, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 48, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 49, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 50, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 51, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 52, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 53, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 54, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 55, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 56, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 57, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 58, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 59, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 60, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 61, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 62, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 63, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 64, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 65, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 66, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 67, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 68, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 69, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 70, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 71, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 72, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 73, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 74, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 75, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 76, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 77, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 78, 40, 0x00006a25 [27173]) -> (ret: 0)
+    @video.c:155, vg_draw_rectangle
+      vg_draw_hline(x, y + i, width, color)
+    < vg_draw_hline(40, 79, 40, 0x00006a25 [27173]) -> (ret: 0)
+  < vg_draw_rectangle(40, 40, 40, 40, 0x006e472e [7227182]) -> (ret: 0)
+  @lab5.c:105, video_test_rectangle
+    driver_receive(ANY, &msg, &ipc_status)
+  > driver_receive(ANY, addr: 0xeffff5d0, addr: 0xeffff5cc)
+  < driver_receive(<[HARDWARE: 0b0000000000000000000000000000000000000000000000000000000000000010]>)
+  @lab5.c:113, video_test_rectangle
+    kbc_ih()
+    @utils.c:33, util_sys_inb
+      sys_inb(port, &v)
+    > sys_inb(0x64, addr: 0xeffff4cc)
+    < sys_inb(0x64, addr: 0xeffff4cc [0x1d = 0b00011101])
+    @utils.c:33, util_sys_inb
+      sys_inb(port, &v)
+    > sys_inb(0x60, addr: 0xeffff4cc)
+    < sys_inb(0x60, addr: 0xeffff4cc [0x01 = 0b00000001])
+  @lab5.c:105, video_test_rectangle
+    driver_receive(ANY, &msg, &ipc_status)
+  > driver_receive(ANY, addr: 0xeffff5d0, addr: 0xeffff5cc)
+  < driver_receive(<[HARDWARE: 0b0000000000000000000000000000000000000000000000000000000000000010]>)
+  @lab5.c:113, video_test_rectangle
+    kbc_ih()
+    @utils.c:33, util_sys_inb
+      sys_inb(port, &v)
+    > sys_inb(0x64, addr: 0xeffff4cc)
+    < sys_inb(0x64, addr: 0xeffff4cc [0x1d = 0b00011101])
+    @utils.c:33, util_sys_inb
+      sys_inb(port, &v)
+    > sys_inb(0x60, addr: 0xeffff4cc)
+    < sys_inb(0x60, addr: 0xeffff4cc [0x81 = 0b10000001])
+  @keyboard.c:24, keyboard_unsubscribe_int
+    sys_irqrmpolicy(&hook_keyboard_ID)
+  > sys_irqrmpolicy(addr: 0x822e5a4 [10])
+  < sys_irqrmpolicy(addr: 0x822e5a4 [10]) -> (ret: 0)
+  @lab5.c:125, video_test_rectangle
+    vg_exit()
+  < vg_exit() -> (ret: 0)
+< video_test_rectangle(0x11a, 40, 40, 40, 40, 0x006e472e [7227182]) -> (ret: 0)

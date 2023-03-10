@@ -1,0 +1,5 @@
+<map id="get_mins" name="get_mins">
+<area shape="rect" id="node1" title="Reads the minutes from the RTC." alt="" coords="393,5,468,32"/>
+<area shape="rect" id="node2" href="$group___u_i.html#gaf00634b01adeecfbf3ef2a18ed46b586" title="Initializes the game background according to the real time minutes." alt="" coords="163,5,345,32"/>
+<area shape="rect" id="node3" href="$group__main.html#ga2a16f651eccbd248e1ad3b3b924b143b" title="Project loop." alt="" coords="5,5,115,32"/>
+</map>

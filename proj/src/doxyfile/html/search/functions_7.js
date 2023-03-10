@@ -1,0 +1,15 @@
+var searchData=
+[
+  ['main_0',['main',['../main_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main.c']]],
+  ['menu_1',['menu',['../group__game.html#gaaf1f7e88427faf8a2768e51dc351332a',1,'menu(uint8_t *menubg, xpm_image_t imgmenuBG):&#160;game.c'],['../group__game.html#gaaf1f7e88427faf8a2768e51dc351332a',1,'menu(uint8_t *menubg, xpm_image_t imgmenuBG):&#160;game.c']]],
+  ['menu_5foption_5fsprite_2',['menu_option_sprite',['../group___u_i.html#ga41257ed90ff9e90df0439348bb2cddb5',1,'menu_option_sprite(int option, uint8_t *replacementbg):&#160;UI.c'],['../group___u_i.html#ga41257ed90ff9e90df0439348bb2cddb5',1,'menu_option_sprite(int option, uint8_t *replacementbg):&#160;UI.c']]],
+  ['mouse_5fdisable_5fdata_3',['mouse_disable_data',['../group__mouse.html#gaa2a295f597fb17688bd4c3ff7997a3ff',1,'mouse_disable_data():&#160;mouse.c'],['../group__mouse.html#gaa2a295f597fb17688bd4c3ff7997a3ff',1,'mouse_disable_data():&#160;mouse.c']]],
+  ['mouse_5fenable_5fdata_4',['mouse_enable_data',['../group__mouse.html#gaa595602ac5666b0db8f85681022f4d8b',1,'mouse_enable_data():&#160;mouse.c'],['../group__mouse.html#gaa595602ac5666b0db8f85681022f4d8b',1,'mouse_enable_data():&#160;mouse.c']]],
+  ['mouse_5fget_5fpacket_5',['mouse_get_packet',['../group__mouse.html#ga9f40a3532c5fdcdd191616e2de66e48f',1,'mouse_get_packet(const uint8_t *bytes, struct packet *pp):&#160;mouse.c'],['../group__mouse.html#ga9f40a3532c5fdcdd191616e2de66e48f',1,'mouse_get_packet(const uint8_t *packet_bytes, struct packet *pp):&#160;mouse.c']]],
+  ['mouse_5fih_6',['mouse_ih',['../mouse_8c.html#aed4404005e4c565ac36656307386e0ac',1,'mouse.c']]],
+  ['mouse_5fissue_5fcommand_7',['mouse_issue_command',['../group__mouse.html#ga61ab3828bd2f69b7edaeb37731e34ddc',1,'mouse_issue_command(uint8_t cmd):&#160;mouse.c'],['../group__mouse.html#ga61ab3828bd2f69b7edaeb37731e34ddc',1,'mouse_issue_command(uint8_t cmd):&#160;mouse.c']]],
+  ['mouse_5fsubscribe_5fint_8',['mouse_subscribe_int',['../group__mouse.html#ga20285aed4b3ef45812cd967532dd09db',1,'mouse_subscribe_int(uint8_t *bit_no):&#160;mouse.c'],['../group__mouse.html#ga20285aed4b3ef45812cd967532dd09db',1,'mouse_subscribe_int(uint8_t *bit_no):&#160;mouse.c']]],
+  ['mouse_5funsubscribe_5fint_9',['mouse_unsubscribe_int',['../group__mouse.html#ga3ecf823d80520009ae5e0d76ae40a3c3',1,'mouse_unsubscribe_int():&#160;mouse.c'],['../group__mouse.html#ga3ecf823d80520009ae5e0d76ae40a3c3',1,'mouse_unsubscribe_int():&#160;mouse.c']]],
+  ['move_5fastros_10',['move_astros',['../group__astro.html#ga134ee463c71cd959505748e9b972174e',1,'move_astros(struct astro astros[]):&#160;astro.c'],['../group__astro.html#ga134ee463c71cd959505748e9b972174e',1,'move_astros(struct astro astros[]):&#160;astro.c']]],
+  ['my_5fvbe_5fget_5fmode_5finfo_11',['my_vbe_get_mode_info',['../group__video.html#ga8ce5079137f097c0032b2e03f1c1ba36',1,'my_vbe_get_mode_info(uint16_t mode, vbe_mode_info_t *vmi_p):&#160;video.c'],['../group__video.html#ga8ce5079137f097c0032b2e03f1c1ba36',1,'my_vbe_get_mode_info(uint16_t mode, vbe_mode_info_t *vmi_p):&#160;video.c']]]
+];

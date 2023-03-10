@@ -1,0 +1,5 @@
+<map id="rtc_ih" name="rtc_ih">
+<area shape="rect" id="node1" title="Interrupt handler of the RTC." alt="" coords="5,31,60,57"/>
+<area shape="rect" id="node2" href="$group__rtc.html#ga2d9b26e014f9202d80e7abc231a10718" title="Reads the seconds from the RTC." alt="" coords="108,5,183,32"/>
+<area shape="rect" id="node3" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title="sys_inb wrapper" alt="" coords="231,31,321,57"/>
+</map>

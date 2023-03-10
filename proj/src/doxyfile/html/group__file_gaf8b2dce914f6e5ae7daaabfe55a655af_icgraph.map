@@ -1,0 +1,5 @@
+<map id="read_highscore" name="read_highscore">
+<area shape="rect" id="node1" title="Reads the file that contains that highest score of all time." alt="" coords="253,5,364,32"/>
+<area shape="rect" id="node2" href="$group__game.html#gaf02123f37b1a3624526c6514736f3633" title="Function responsible for handling the end game portion of the project." alt="" coords="163,5,205,32"/>
+<area shape="rect" id="node3" href="$group__main.html#ga2a16f651eccbd248e1ad3b3b924b143b" title="Project loop." alt="" coords="5,5,115,32"/>
+</map>

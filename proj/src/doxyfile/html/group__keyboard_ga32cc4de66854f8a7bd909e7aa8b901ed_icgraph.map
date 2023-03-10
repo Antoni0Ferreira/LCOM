@@ -1,0 +1,4 @@
+<map id="keyboard_unsubscribe_int" name="keyboard_unsubscribe_int">
+<area shape="rect" id="node1" title="Function responsible for unsubscribing the interrupts from the keyboard." alt="" coords="163,5,336,32"/>
+<area shape="rect" id="node2" href="$group__main.html#ga2a16f651eccbd248e1ad3b3b924b143b" title="Project loop." alt="" coords="5,5,115,32"/>
+</map>

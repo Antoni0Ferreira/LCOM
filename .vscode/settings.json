@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+<<<<<<< HEAD
+        "timer.h": "c",
+        "algorithm": "c",
+        "bitset": "c",
+        "chrono": "c",
+        "iterator": "c",
+        "xhash": "c",
+        "xtree": "c",
+        "xutility": "c",
+        "__bit_reference": "c",
+        "map": "c",
+        "unordered_map": "c",
+        "lcf.h": "c",
+        "xlocale": "c",
+        "memory": "c",
+        "type_traits": "c",
+        "xlocbuf": "c"
+    }
+=======
+        "utils.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+>>>>>>> aa9eb9f33d3c8258c5ea9f79cefdb389e2bd5d23
+}

@@ -1,0 +1,6 @@
+<map id="mouse_issue_command" name="mouse_issue_command">
+<area shape="rect" id="node1" title="Function responsible for issuing a command to the KBC command register." alt="" coords="352,31,515,57"/>
+<area shape="rect" id="node2" href="$group__mouse.html#gaa2a295f597fb17688bd4c3ff7997a3ff" title="Writes command 0xF5 to KBC disabling mouse data transfer." alt="" coords="163,5,304,32"/>
+<area shape="rect" id="node4" href="$group__mouse.html#gaa595602ac5666b0db8f85681022f4d8b" title="Writes command 0xF4 to KBC activating mouse data transfer." alt="" coords="164,56,303,83"/>
+<area shape="rect" id="node3" href="$group__main.html#ga2a16f651eccbd248e1ad3b3b924b143b" title="Project loop." alt="" coords="5,31,115,57"/>
+</map>

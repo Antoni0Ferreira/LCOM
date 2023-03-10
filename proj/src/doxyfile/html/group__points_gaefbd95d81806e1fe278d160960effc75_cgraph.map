@@ -1,0 +1,5 @@
+<map id="initialize_points" name="initialize_points">
+<area shape="rect" id="node1" title="Initializes the xpm maps and images of all of the numbers needed for drawing the points on screen,..." alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node2" href="$group__video.html#ga4e01b14c312b99f870c26113c38450e7" title="Draws the image passed by parameters starting in coordinates (x,y)" alt="" coords="164,5,271,32"/>
+<area shape="rect" id="node3" href="$group__video.html#ga08c498ffeb0a3962e3b7711b57397741" title="Writes color in memory correspondent to pixel (x,y)" alt="" coords="319,5,421,32"/>
+</map>

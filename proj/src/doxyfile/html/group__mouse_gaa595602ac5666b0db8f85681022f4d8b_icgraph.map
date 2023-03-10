@@ -1,0 +1,4 @@
+<map id="mouse_enable_data" name="mouse_enable_data">
+<area shape="rect" id="node1" title="Writes command 0xF4 to KBC activating mouse data transfer." alt="" coords="163,5,301,32"/>
+<area shape="rect" id="node2" href="$group__main.html#ga2a16f651eccbd248e1ad3b3b924b143b" title="Project loop." alt="" coords="5,5,115,32"/>
+</map>

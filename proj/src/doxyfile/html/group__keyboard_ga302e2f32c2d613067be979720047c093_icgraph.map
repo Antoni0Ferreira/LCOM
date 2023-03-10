@@ -1,0 +1,6 @@
+<map id="read_from_kbc" name="read_from_kbc">
+<area shape="rect" id="node1" title="Function responsible for reading the output buffer of the KBC." alt="" coords="373,5,480,32"/>
+<area shape="rect" id="node2" href="$keyboard_8c.html#aea970a154161a35f6894898a092ed70a" title=" " alt="" coords="265,5,325,32"/>
+<area shape="rect" id="node3" href="$group__game.html#gaaf1f7e88427faf8a2768e51dc351332a" title="Function responsible for handling the main menu. This includes drawing the menu, and letting the user..." alt="" coords="163,5,217,32"/>
+<area shape="rect" id="node4" href="$group__main.html#ga2a16f651eccbd248e1ad3b3b924b143b" title="Project loop." alt="" coords="5,5,115,32"/>
+</map>

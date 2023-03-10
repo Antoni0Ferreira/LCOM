@@ -1,0 +1,11 @@
+<map id="vg_draw_pixel" name="vg_draw_pixel">
+<area shape="rect" id="node1" title="Writes color in memory correspondent to pixel (x,y)" alt="" coords="731,107,833,133"/>
+<area shape="rect" id="node2" href="$video_8c.html#a5e5b25bd525250f61f40b9e9f212d5e6" title=" " alt="" coords="578,44,681,71"/>
+<area shape="rect" id="node4" href="$group__video.html#ga4e01b14c312b99f870c26113c38450e7" title="Draws the image passed by parameters starting in coordinates (x,y)" alt="" coords="576,132,683,159"/>
+<area shape="rect" id="node3" href="$video_8c.html#a99d2da2559e11200c6b40c469e9977ec" title=" " alt="" coords="397,5,525,32"/>
+<area shape="rect" id="node5" href="$group___u_i.html#gac02358a3a88f1ad6ece333c3d0b18fad" title="Initializes the menu&#39;s background." alt="" coords="163,56,345,83"/>
+<area shape="rect" id="node6" href="$group__main.html#ga2a16f651eccbd248e1ad3b3b924b143b" title="Project loop." alt="" coords="5,107,115,133"/>
+<area shape="rect" id="node7" href="$group__points.html#gaefbd95d81806e1fe278d160960effc75" title="Initializes the xpm maps and images of all of the numbers needed for drawing the points on screen,..." alt="" coords="405,157,516,184"/>
+<area shape="rect" id="node8" href="$group__game.html#gaaf1f7e88427faf8a2768e51dc351332a" title="Function responsible for handling the main menu. This includes drawing the menu, and letting the user..." alt="" coords="227,208,281,235"/>
+<area shape="rect" id="node9" href="$group___u_i.html#ga41257ed90ff9e90df0439348bb2cddb5" title="Draws a spaceship to show the selected button in the menu." alt="" coords="393,259,528,285"/>
+</map>

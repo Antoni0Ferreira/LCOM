@@ -1,0 +1,4 @@
+<map id="end" name="end">
+<area shape="rect" id="node1" title="Function responsible for handling the end game portion of the project." alt="" coords="5,5,48,32"/>
+<area shape="rect" id="node2" href="$group__file.html#gaf8b2dce914f6e5ae7daaabfe55a655af" title="Reads the file that contains that highest score of all time." alt="" coords="96,5,207,32"/>
+</map>

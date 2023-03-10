@@ -1,0 +1,6 @@
+<map id="vg_destroy_sprite" name="vg_destroy_sprite">
+<area shape="rect" id="node1" title="Replaces the memory correspondent to the sprite being destroyed with the background colors." alt="" coords="448,5,571,32"/>
+<area shape="rect" id="node2" href="$group___u_i.html#ga41257ed90ff9e90df0439348bb2cddb5" title="Draws a spaceship to show the selected button in the menu." alt="" coords="265,5,400,32"/>
+<area shape="rect" id="node3" href="$group__game.html#gaaf1f7e88427faf8a2768e51dc351332a" title="Function responsible for handling the main menu. This includes drawing the menu, and letting the user..." alt="" coords="163,5,217,32"/>
+<area shape="rect" id="node4" href="$group__main.html#ga2a16f651eccbd248e1ad3b3b924b143b" title="Project loop." alt="" coords="5,5,115,32"/>
+</map>

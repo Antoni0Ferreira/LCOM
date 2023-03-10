@@ -1,0 +1,19 @@
+<map id="util_sys_inb" name="util_sys_inb">
+<area shape="rect" id="node1" title="sys_inb wrapper" alt="" coords="748,233,839,260"/>
+<area shape="rect" id="node2" href="$group__rtc.html#ga7d1fd4bebc686614005d97f7786da3ee" title="Reads the minutes from the RTC." alt="" coords="604,5,679,32"/>
+<area shape="rect" id="node3" href="$group___u_i.html#gaf00634b01adeecfbf3ef2a18ed46b586" title="Initializes the game background according to the real time minutes." alt="" coords="352,56,535,83"/>
+<area shape="rect" id="node5" href="$group__rtc.html#ga2d9b26e014f9202d80e7abc231a10718" title="Reads the seconds from the RTC." alt="" coords="604,107,679,133"/>
+<area shape="rect" id="node6" href="$group__rtc.html#ga75dad42881d64cf07cf1bdc2979a7056" title="Interrupt handler of the RTC." alt="" coords="416,132,471,159"/>
+<area shape="rect" id="node7" href="$group__keyboard.html#ga4cc1eb406ec11e3bd5ddda2935fa39bd" title="Function that writes the arguments of a command to the arguments register of the KBC." alt="" coords="602,208,681,235"/>
+<area shape="rect" id="node8" href="$group__keyboard.html#ga86cef51d5c2d7407ee3c99d8405353ea" title="Function that writes a command to the command register of the KBC." alt="" coords="583,259,700,285"/>
+<area shape="rect" id="node9" href="$mouse_8c.html#aed4404005e4c565ac36656307386e0ac" title=" " alt="" coords="404,309,483,336"/>
+<area shape="rect" id="node11" href="$group__mouse.html#ga61ab3828bd2f69b7edaeb37731e34ddc" title="Function responsible for issuing a command to the KBC command register." alt="" coords="362,411,525,437"/>
+<area shape="rect" id="node14" href="$group__keyboard.html#ga302e2f32c2d613067be979720047c093" title="Function responsible for reading the output buffer of the KBC." alt="" coords="588,360,695,387"/>
+<area shape="rect" id="node16" href="$group__timer.html#ga703c60b40c8c49607d6ecb6fef82d27a" title="Reads the input timer configuration (status) via read&#45;back command." alt="" coords="588,461,695,488"/>
+<area shape="rect" id="node4" href="$group__main.html#ga2a16f651eccbd248e1ad3b3b924b143b" title="Project loop." alt="" coords="5,360,115,387"/>
+<area shape="rect" id="node10" href="$group__game.html#gaaf1f7e88427faf8a2768e51dc351332a" title="Function responsible for handling the main menu. This includes drawing the menu, and letting the user..." alt="" coords="206,309,261,336"/>
+<area shape="rect" id="node12" href="$group__mouse.html#gaa2a295f597fb17688bd4c3ff7997a3ff" title="Writes command 0xF5 to KBC disabling mouse data transfer." alt="" coords="163,360,304,387"/>
+<area shape="rect" id="node13" href="$group__mouse.html#gaa595602ac5666b0db8f85681022f4d8b" title="Writes command 0xF4 to KBC activating mouse data transfer." alt="" coords="164,411,303,437"/>
+<area shape="rect" id="node15" href="$keyboard_8c.html#aea970a154161a35f6894898a092ed70a" title=" " alt="" coords="413,360,473,387"/>
+<area shape="rect" id="node17" href="$group__timer.html#gaf2c04fa8e97ffa748fd3f612886a92a7" title="Changes the operating frequency of a timer." alt="" coords="164,461,303,488"/>
+</map>

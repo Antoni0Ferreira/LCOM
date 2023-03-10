@@ -1,0 +1,5 @@
+<map id="initialize_menu_background" name="initialize_menu_background">
+<area shape="rect" id="node1" title="Initializes the menu&#39;s background." alt="" coords="5,5,188,32"/>
+<area shape="rect" id="node2" href="$group__video.html#ga4e01b14c312b99f870c26113c38450e7" title="Draws the image passed by parameters starting in coordinates (x,y)" alt="" coords="236,5,343,32"/>
+<area shape="rect" id="node3" href="$group__video.html#ga08c498ffeb0a3962e3b7711b57397741" title="Writes color in memory correspondent to pixel (x,y)" alt="" coords="391,5,493,32"/>
+</map>
